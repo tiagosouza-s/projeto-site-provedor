@@ -1,0 +1,85 @@
+/* Seção Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* Seção Topo */
+.container-topo{
+    position: relative;
+    padding: 35px 0px;
+}
+.topo-logo{
+    position: relative;
+}
+.topo-logo div{
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+.topo-links{
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+.container-topo img{
+    width: 85px;
+}
+.container-topo p{
+    font-size: 16px;
+    color: #2f86d6;
+}
+h1{
+    font-size: 32px;
+    color: #000000;
+}
+a{
+    font-size: 18px;
+    color: #233032;
+}
+/* Seção Banner */
+.secao-banner{
+    height: 500px;
+    background-color: #2f86d6 ;
+}
+.container-banner{
+    position: relative;
+}
+.secao-banner img{
+    position: absolute;
+    right: 0;
+    width: 500px;
+}
+.texto-banner{
+    position: absolute;
+    top: 200px;
+}
+.texto-banner h2{
+    font-size: 28px;
+}
+p{
+    font-size: 16px;
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+/* Seção Primeiro Anúncio */
+.secao-primeiro-anuncio{
+    background-color: #233032;
+    height: 100px;}
+.container-primeiro-anuncio{
+    position: relative;
+}
+.container-primeiro-anuncio a{
+    position: absolute;
+    right: 0;
+    color: #fff;
+    background-color: #2f86d6;
+}
