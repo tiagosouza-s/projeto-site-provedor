@@ -75,7 +75,7 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-p{
+.secao-banner, .secao-primeiro-anuncio p{
     font-size: 16px;
     color: #fff;
 }
@@ -105,8 +105,16 @@ h2{
     top: 35px;
 }
 /* Seção Informações*/
-h3{
+.secao-informacoes{
+    background-color: #fff;
+    padding: 100px 0px;
+    text-align: center;
+    height: 500px;
+}
+.secao-informacoes h3{
     font-size: 32px;
+    margin: 0px auto 60px;
+    width: 900px;
 }
 .texto-azul{
     color: #2f86d6;
@@ -114,7 +122,113 @@ h3{
 .container-informacoes img{
     width: 100px;
 }
-/* Seção Tabela de Preços */
+.container-informacoes{
+    position: relative;
+}
+.container-informacoes div{
+    position: absolute;
+    width: 33%;
+    top: 0;
+}
+.card2{
+    left: 335px;
+}
+.card3{
+    right: 0;
+}
+/* Seção Planos */
 table img{       
     width: 100px;
+}
+.secao-planos h2{
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+}
+.secao-planos h3{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.secao-planos p{
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #a89f9f;
+    
+}
+.linha-impar{
+    font-size: 16px;
+    background-color: #F6f6f6;
+}
+.linha-par{
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+table tbody td {
+    text-align: center;
+    line-height: 50px;
+    width: 250px;
+    max-width: 1024px;
+    font-weight: 500;
+    padding: 15px;
+}
+table{
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+    margin-bottom: 50px;
+}
+/* Seção Segundo Anúncio */
+.secao-segundo-anuncio{
+    background-color: #2f86d6;
+    height: 130px;}
+.secao-segundo-anuncio{
+    position: relative;
+}
+.container-segundo-anuncio{
+    position: relative;
+}
+.secao-segundo-anuncio a{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    color: #fff;
+    background-color:#233032;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: -8px;
+}
+.container-segundo-anuncio h2{
+    font-size: 24px;
+    position: absolute;
+    top: 35px;
+    width: 550px;
+}
+/* Seção Rodapé */
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;
+}
+.rodape-logo img{
+    width: 85px;    
+}
+.rodape-logo div{
+    position: absolute;
+    left: 95px;
+    top: 5px;
+}
+.container-contato{
+    text-align: center;
+    color: #000000;
+    line-height: 30px;
+}
+.container-copyright{
+    text-align: center;
+    margin: 40px;
 }
