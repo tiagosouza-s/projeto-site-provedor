@@ -28,6 +28,10 @@
     right: 0;
     top: 65px;
 }
+.topo-links a{
+    padding: 10px;
+    text-decoration: none;
+}
 .container-topo img{
     width: 85px;
 }
@@ -54,14 +58,22 @@ a{
 .secao-banner img{
     position: absolute;
     right: 0;
-    width: 500px;
+    width: 350px;
+    top: 100px;
+}
+.secao-banner p{
+    width: 350px;
 }
 .texto-banner{
     position: absolute;
     top: 200px;
+    margin-top: -50px
 }
 .texto-banner h2{
     font-size: 28px;
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 p{
     font-size: 16px;
@@ -73,13 +85,36 @@ h2{
 /* Seção Primeiro Anúncio */
 .secao-primeiro-anuncio{
     background-color: #233032;
-    height: 100px;}
+    height: 130px;}
 .container-primeiro-anuncio{
     position: relative;
 }
 .container-primeiro-anuncio a{
     position: absolute;
+    top: 40px;
     right: 0;
     color: #fff;
     background-color: #2f86d6;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: -8px;
+}
+.texto-anuncio{
+    position: absolute;
+    top: 35px;
+}
+/* Seção Informações*/
+h3{
+    font-size: 32px;
+}
+.texto-azul{
+    color: #2f86d6;
+}
+.container-informacoes img{
+    width: 100px;
+}
+/* Seção Tabela de Preços */
+table img{       
+    width: 100px;
 }
