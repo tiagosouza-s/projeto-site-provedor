@@ -1,0 +1,120 @@
+/* Seção Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* Seção Topo */
+.container-topo{
+    position: relative;
+    padding: 35px 0px;
+    
+}
+.topo-logo{
+    position: relative;
+}
+.topo-logo div{
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+.topo-links{
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+.topo-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.container-topo img{
+    width: 85px;
+}
+.container-topo p{
+    font-size: 16px;
+    color: #fff;
+}
+h1{
+    font-size: 32px;
+    color: #000000;
+}
+a{
+    font-size: 18px;
+    color: #233032;
+}
+.topo-tabela-precos{
+    background-color: #2f86d6;
+}
+/*-- Tabela--*/
+table{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cedula-cabeçalho{
+    background-color: #f1f3f7;
+}
+.primeira-cedula{
+    background-color: #f1f3f7;
+    padding: 10px;
+    text-align:left;
+    font-weight: 600;
+}
+td{
+    text-align: center;
+}
+.marcador-azul{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+table thead tr th p{
+    color: #a89f9f;
+    font-size: 13px;
+}
+/*-- Seção Rodapé--*/
+.secao-rodape{
+    background-color: #2f86d6;
+    padding-top: 1px;
+    margin: 0;
+}
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;
+}
+.rodape-logo img{
+    width: 85px;    
+}
+.rodape-logo div{
+    position: absolute;
+    left: 95px;
+    top: 5px;
+}
+.secao-rodape p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 75px;
+}
+.container-copyright{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fff;
+}
+.container-copyright p{
+    color:#000000;
+    padding: 20px;
+}
+.texto-azul{
+    color: #2f86d6;
+}
